@@ -1,0 +1,71 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Convention Inoubliable</title>
+	<meta name="description" content="La Convention Inoubliable est une convention de jeu qui se déroule depuis 3 ans le week end du 1er Novembre sur les universités de Lille 1 et Lille 3">
+        <meta name="keywords" content="convention inoubliable COIN Lille1 Lille3 Villeneuve d'ascq jeu université étudiant public gratuit">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/png" href="favicon.png" />
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+       <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+	</head>
+	<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class="navbar navbar-inverse navbar-custom">
+			<div class="navbar-header">
+			    <a href="../index.html"><img src="../img/logoMenu.png" alt="COnvention INOubliable" width="180"/>
+				</a>
+			</div>
+		</div>
+		<br>
+		<div class="container row">
+	    		<div class="col-xs-12 tombola"> 
+				<span class="right"> Nombre de visiteurs
+				<input id="number"/>
+				<button id="submit">Valider</button></span>
+				<img src="../img/baniere.png" alt="" width="100%"/><br>
+				<section class="col-md-6">
+					<h3> Nouveau Vainqueur </h3>
+					<div id="currentNumber"></div>
+					<button id="nextNumber"> Prochain numéro</button>
+				</section>
+				<section class="col-md-6">
+					<h3> Liste des numéros gagnants</h3>
+					<div id="allNumbers"></div>
+				</section>
+			</div>
+		</div>
+		<footer class="tombola">*</footer>
+	
+	
+		<script src="tombola.js"></script>
+	    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="../js/vendor/bootstrap.min.js"></script>
+		<script src="../js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
+		<script src="../js/vendor/pluggin-dropdown.js"></script>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+</body>
+</html>

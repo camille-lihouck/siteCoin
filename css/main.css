@@ -1,0 +1,251 @@
+body{
+  background: #F4C783;
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  text-align: justify;
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  margin: 0px1;
+  padding: 0px;
+  border: 0px;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.float-left{
+  float:left;
+  padding-right:5%;
+  padding-bottom:5px;
+  width:40%
+}
+
+.float-right{
+  float:right;
+  padding-left: 5%;
+  padding-bottom: 5px;
+  width: 40%;
+  text-align: right;
+}
+
+.medium{
+width:30%;  
+}
+
+.small{
+  width:20%;
+}
+
+.extra-small{
+  width:10%;
+}
+.navbar-custom, footer, h2{
+  color:#F8D095;
+  border-bottom: 5px solid  #F8D095;
+  border-top: 5px solid  #F8D095;
+}
+
+
+aside, h2{
+  border: 3px solid  #F8D095;
+  border-bottom: 0px solid  #F8D095;
+  border-top: 5px solid  #F8D095;
+  margin: 0px;
+}
+
+aside img{
+  border:10px solid brown;
+  display:block;
+  margin:auto;
+}
+
+aside section{
+  border-bottom: 10px solid #F8D095;
+  text-align: center;
+}
+
+
+
+.navbar-custom, footer, h2{
+  background:brown;
+  border:none;
+  font-family: 'Lobster', cursive;
+  text-align: left;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+  background:none;
+  color:none;
+  box-shadow: none;
+}
+.navbar-header{
+  margin:5px 10px 5px 8%;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+.navbar-nav #teteDeMort{
+  padding:0px;
+}
+
+
+.navbar-nav li.dropdown {
+  padding-top:15px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.jumbotron{
+  padding: 0px;
+  margin:0px;
+}
+.jumbotron img{
+  width: 100%;
+}
+
+section > *{
+  padding: 10px 12%;
+  margin: 0px 0px;
+}
+
+section h2{
+  padding: 0px 10%;
+}
+
+section{
+  margin: 0px;
+  padding 0px 
+}
+
+.container{
+  padding: 0 5%;
+}
+
+.container{
+  width: 100%;
+  padding:0px;
+  margin:0px;
+}
+
+
+ [class*="col-"]  {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer [class*="col-"], section [class*="col-"]{
+  padding-left: 5%;
+  padding-right: 3%;
+}
+
+
+ section [class*="col-"]{  
+  text-align: center;
+ }
+
+h3,h1{
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+  color:#8C0004;
+  
+}
+
+footer{
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+.tombola section, .tombola h2{
+  text-align: center;
+  border: 5px solid #8C0004;
+  border-top: 10px solid #8C0004;
+  border-bottom: 10px solid #8C0004;
+  padding: 20px;
+}
+
+.tombola .col-md-6{
+  height:1000px;
+}
+
+.right {
+  display: block;
+  text-align: right;
+}
+
+ #currentNumber{
+   height:300px;
+   font-size: 200px;
+ }
+
+.tombola *{
+   color:  #8C0004;
+ }
+/*----------- couleur rouge et jaune-------*/
+/* couleur 1*/
+
+div .col-md-9 , .tombola{
+  background-color: #F1C36A;
+}
+
+.navbar-custom, aside, footer, h2, footer .container a, aside a{
+  color:#F1A66A;
+}
+
+.navbar-custom, footer, h2, aside, aside section,.navbar-inverse .navbar-toggle:hover ,.navbar-inverse ,navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-toggle {
+  border-color:#F1C36A;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #F1A66A;
+}
+/* couleur 2*/
+aside img{
+  border-color:#8C0004;
+}
+
+.navbar-inverse .navbar-toggle:hover ,.navbar-inverse ,navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-collapse,.navbar-inverse .navbar-toggle {
+    color: #8C0004;
+    background-color: #8C0004;
+}
+
+.navbar-custom, footer, h2, aside{
+  background: #8C0004;
+}
+
+.dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav >li> a:hover {
+    color: #EF696C;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu{
+   background: #8C0004;
+ }
+
+.dropdown-menu>li>a{
+    color:#F1C36A;
+}
+
+/* couleur 3*/
+
+/*body{
+  background:#E67820;
+}
+
+aside, div .col-md-9{
+  border:15px solid #E67820;
+}
+aside{
+  border-left: 0px;
+}
+
+aside section{
+  border-color:#E67820;
+}

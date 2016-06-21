@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/main.css">
+	</head>
+	<body>
+		<div id="currentNumber"></div>
+		<div id="allNumbers"></div>
+		<script>
+			size = window.prompt("Nombre de participants");
+			var currentNumber = document.getElementById("currentNumber");
+			var allNumbers = document.getElementById("allNumbers");
+
+			var listWinner=[];
+			var sortIndex= 0;
+			var winner = 0;
+
+			function sortAList(var number){
+				var sortList=[]
+				for (var i=1 ; i < (number + 1) ; i +=1){
+					sortList.push(i);
+				}
+				for (var i=1 ; i < (number + 1) ; i +=1){
+					var aux= sortList[i-1];
+					var rand= Math.floor(Math.random(number+1));
+					sortList[i-1]= sortList[rand];
+					sortList[rand]= aux;
+				}
+				return (sortList);
+			}
+
+			function sortNumber(){
+				listWinner.push(winner);
+				winner=sortList[sortIndex];
+				sortIndex+=1;
+				currentNumber.innerHTML = winner;
+				allNumbers.innerHTML = listWinner;
+			}
+    		sortNumber()
+			nextNumber.addEventListener('click',sortNumber())
+			}		
+		</script>
+	</body>
+</hmtl>
